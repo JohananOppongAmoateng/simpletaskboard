@@ -1,5 +1,5 @@
 from django.test import TestCase
-from ..models import Board, Task, User
+from core.models import Board, Task, User
 
 class TestModels(TestCase):
     def setUp(self):
